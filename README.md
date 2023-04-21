@@ -5,7 +5,7 @@ Backend para la Web desarrollada por KalamityDevs
 
 
 ## Librerias utilizadas
-___
+
 
 Lenguaje de programación **Javascript** con Node. Para utilizar el gestor de paquetes **npm**
 ```
@@ -30,11 +30,11 @@ $ npm install cors --save
 ```
 
 ## IDE Recomendado
-___
+
 ![](Assets/idetool.png)
 
 ## Reglas
-___
+
 
 - Utilizar siempre **git pull** antes de escribir código nuevo, para tener actualizado los últimos cambios.
 - Los **git commit** deben ser entendibles para todos.
