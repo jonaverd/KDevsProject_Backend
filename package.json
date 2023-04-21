@@ -1,0 +1,35 @@
+{
+  "name": "website_backend",
+  "version": "1.0.0",
+  "description": "kalamity website project by devs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonaverd/KDevsProject_Backend.git"
+  },
+  "keywords": [
+    "website",
+    "kalamity",
+    "nodejs",
+    "developers",
+    "mattermost",
+    "github",
+    "backend",
+    "server"
+  ],
+  "author": "devs team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonaverd/KDevsProject_Backend/issues"
+  },
+  "homepage": "https://github.com/jonaverd/KDevsProject_Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
