@@ -1,11 +1,12 @@
+// Librerias del servidor + rutas principales importadas 
 const express = require('express'); 
+const playerRouter = require('./playerRouter.js');
 
-const testRouter = require('./testRouter');
-
+// Declaracion de rutas principales
 function routerApi(app) {
   const router = express.Router();
   app.use('/', router); 
-  router.use('/test', testRouter);
+  router.use('/players', playerRouter);
 }
 
 module.exports = routerApi;
